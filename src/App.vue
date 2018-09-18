@@ -59,7 +59,7 @@
 
   @media (min-width: $desktop) {
     #app {
-      grid-template-rows: minmax(300px, min-content) minmax(calc(83vh-9em), auto) 7vh;
+      grid-template-rows: minmax(200px, min-content) minmax(calc(83vh-9em), auto) 7vh;
       grid-gap: 5px 5px;
     }
 
