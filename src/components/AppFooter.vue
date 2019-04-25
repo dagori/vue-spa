@@ -13,10 +13,8 @@ export default {
 <style scoped lang="scss">
 
   .container__footer {
-    margin-top: auto;
     color: white;
     text-align: center;
-
     padding: 10px;
 
     a {

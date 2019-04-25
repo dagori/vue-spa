@@ -43,7 +43,7 @@
     margin: 0;
     display: grid;
     min-height: 100vh;
-    grid-template-rows: minmax(150px, min-content) auto 5vh;
+    grid-template-rows: minmax(150px, min-content) 1fr minmax(5vh, auto);
     grid-row-gap: 5px;
     grid-column-gap: 2px;
   }
@@ -60,7 +60,7 @@
 
   @media (min-width: $desktop) {
     #app {
-      grid-template-rows: minmax(200px, min-content) minmax(calc(83vh-9em), auto) 7vh;
+      grid-template-rows: minmax(200px, min-content) 1fr 7vh;
       grid-row-gap: 5px;
       grid-column-gap: 5px;
     }
