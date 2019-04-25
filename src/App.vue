@@ -29,6 +29,7 @@
     padding: 0;
     font-family: 'Indie Flower', 'Arial', cursive;
     overflow-y: scroll;
+    background: white;
   }
 
   ul, li, a {
@@ -60,7 +61,8 @@
   @media (min-width: $desktop) {
     #app {
       grid-template-rows: minmax(200px, min-content) minmax(calc(83vh-9em), auto) 7vh;
-      grid-gap: 5px 5px;
+      grid-row-gap: 5px;
+      grid-column-gap: 5px;
     }
 
     main {
