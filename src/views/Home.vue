@@ -98,7 +98,6 @@
   .gallery {
     display: grid;
     grid-gap: 3px;
-    grid-template-columns: repeat(object-fill, 1fr);
   }
 
   .gallery__item {
